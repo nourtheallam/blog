@@ -13,7 +13,12 @@ import vercel from '@astrojs/vercel/serverless'
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.me',
+	site: 'https://nourtheallam.github.io/',
+	output: 'static',
+	outDir: './docs',
+	build: {
+		assets: 'astro'
+	},
 	integrations: [
 		expressiveCode(expressiveCodeOptions),
 		tailwind({
