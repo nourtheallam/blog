@@ -17,7 +17,7 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  site: "https://nourtheallam.github.io", // your site url
+  site: "http://nour-allam.com/", // your site url
   title: "noursblog",
   slogan: "My thoughts and course notes",
   description: "and a good reason to explore new web dev tools.",
