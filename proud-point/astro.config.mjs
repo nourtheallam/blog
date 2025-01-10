@@ -9,7 +9,6 @@ import react from '@astrojs/react';
 
 export default defineConfig({
   site: siteConfig.site,
-  base: '/blog/',
   integrations: [tailwind(), sitemap(), react()],
   markdown: {
     rehypePlugins: [
