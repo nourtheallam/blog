@@ -331,7 +331,7 @@ createCollectionToGlobResultMap({
 });
 
 let lookupMap = {};
-lookupMap = {"post":{"type":"content","entries":{"draft-post":"/src/content/post/draft-post.md","unique-tags":"/src/content/post/unique-tags.md","cover-image":"/src/content/post/cover-image/index.md","markdown-elements":"/src/content/post/markdown-elements/index.md","social-image":"/src/content/post/social-image.md","long-title":"/src/content/post/long-title.md","missing-content":"/src/content/post/missing-content.md"}}};
+lookupMap = {"post":{"type":"content","entries":{"draft-post":"/src/content/post/draft-post.md","missing-content":"/src/content/post/missing-content.md","social-image":"/src/content/post/social-image.md","unique-tags":"/src/content/post/unique-tags.md","cover-image":"/src/content/post/cover-image/index.md","markdown-elements":"/src/content/post/markdown-elements/index.md","long-title":"/src/content/post/long-title.md"}}};
 
 new Set(Object.keys(lookupMap));
 

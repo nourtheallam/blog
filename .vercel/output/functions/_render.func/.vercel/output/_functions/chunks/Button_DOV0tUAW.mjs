@@ -1,7 +1,7 @@
 import { c as createAstro, a as createComponent, r as renderTemplate, b as addAttribute, d as renderComponent, F as Fragment, m as maybeRenderHead, l as renderHead, k as renderSlot } from './astro/server_DM8AZXvl.mjs';
 import 'kleur/colors';
 /* empty css                          */
-import { s as siteConfig } from './_astro_content_CIh6vzf6.mjs';
+import { s as siteConfig } from './_astro_content_B7_9NUxR.mjs';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 

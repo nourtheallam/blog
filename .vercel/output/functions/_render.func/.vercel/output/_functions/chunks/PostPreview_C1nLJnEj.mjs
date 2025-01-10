@@ -1,6 +1,6 @@
 import { c as createAstro, a as createComponent, r as renderTemplate, m as maybeRenderHead, d as renderComponent, b as addAttribute } from './astro/server_DM8AZXvl.mjs';
 import 'kleur/colors';
-import { $ as $$FormattedDate } from './FormattedDate_Ds2ByCK_.mjs';
+import { $ as $$FormattedDate } from './FormattedDate_KU5ulGeF.mjs';
 
 const $$Astro = createAstro("https://nourtheallam.github.io/blog/");
 const $$PostPreview = createComponent(($$result, $$props, $$slots) => {
