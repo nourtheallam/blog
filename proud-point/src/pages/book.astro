@@ -1,0 +1,22 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import BlogPreview from '../components/BlogPreview.astro'
+import SocialLinks from '../components/SocialLinks.astro'
+import { getCollection } from 'astro:content'
+import { filterPosts } from '../utils/posts'
+import { siteConfig } from '../config'
+
+const posts = await getCollection('blog')
+
+// Configure homepage post filtering
+const homePagePosts = filterPosts(posts, {
+  ...siteConfig.homepage,
+})
+---
+
+<BaseLayout title={siteConfig.title}>
+  <section>
+    <iframe src=" https://nourtheallam.github.io/my-first-book/" width="100%" height="600px"></iframe>
+  </section>
+</BaseLayout>
+
