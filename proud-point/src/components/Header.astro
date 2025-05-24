@@ -2,18 +2,16 @@
 import ThemeToggle from './ThemeToggle.astro';
 import { siteConfig } from '../config';
 import Search from './Search.astro';
+import SocialLinks from './SocialLinks.astro'
 
 const navItems = [
   { href: '/', text: 'Home' },
-  { href: '/blog', text: 'Blog' },
-  { href: '/tags', text: 'Tags' },
-  { href: '/archive', text: 'Archive' },
   { href: '/book', text: 'Book' },
 
 ];
 ---
 
-<header class="py-6">
+<header class="py-6" style="border-bottom: solid 0.15vh grey">
   <nav class="flex justify-between items-center flex-wrap">
     <a href="/" class="text-2xl font-bold text-gray-900 dark:text-white">{ siteConfig.title }</a>
     <div class="flex items-center gap-6">
@@ -30,6 +28,7 @@ const navItems = [
         ))}
       </ul>
       {siteConfig.search && <Search />}
+      <SocialLinks/>
       <ThemeToggle />
     </div>
   </nav>

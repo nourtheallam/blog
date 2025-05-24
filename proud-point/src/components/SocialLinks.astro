@@ -29,17 +29,7 @@ const socialIcons = {
       <Fragment set:html={socialIcons.github} />
     </a>
   )}
-  {siteConfig.social.linkedin && (
-    <a
-      href={siteConfig.social.linkedin}
-      target="_blank"
-      rel="noopener noreferrer"
-      class="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white"
-      aria-label="LinkedIn"
-    >
-      <Fragment set:html={socialIcons.linkedin} />
-    </a>
-  )}
+
   {siteConfig.social.email && (
     <a
       href={`mailto:${siteConfig.social.email}`}

@@ -19,8 +19,8 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   site: "http://nour-allam.com/", // your site url
   title: "noursblog",
-  slogan: "My thoughts and course notes",
-  description: "and a good reason to explore new web dev tools.",
+  slogan: "Welcome to my blog?",
+  description: "Enjoy this picture of Tuna until I figure out what else to put here.",
   social: {
     github: "https://github.com/nourtheallam", // leave empty if you don't want to show the github
     linkedin: "https://www.linkedin.com/in/nourallamdal/", // leave empty if you don't want to show the linkedin

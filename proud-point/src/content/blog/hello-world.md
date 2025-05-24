@@ -1,28 +1,10 @@
 ---
-title: "Hello World"
-description: "Welcome to my blog! This is my first post."
-date: 2024-03-21
-tags: ["welcome", "first-post"]
+title: "World"
+description: "Reflecting on the state of the world."
+date: 2025-05-24
+tags: ["society", "sad"]
 ---
 
-Hello everyone! This is my first blog post. I'm excited to share my thoughts and experiences with you.
+## Reflecting on the state of the world 
 
-## What to Expect
-
-In this blog, I'll be writing about:
-
-- Technology
-- Programming
-- Best practices
-- And much more!
-
-```javascript
-// Here's a simple example of code highlighting
-function greet(name) {
-  return `Hello, ${name}!`;
-}
-
-console.log(greet('World'));
-```
-
-Stay tuned for more content!
+I have been finding it very difficult to be optimistic about anything other than my personal relationships. Staying informed is a double-edged sword; I know more than ever about the world around me, but that has made me more disillusioned than ever. 
