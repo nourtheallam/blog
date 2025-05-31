@@ -1,9 +1,13 @@
 ---
 import { siteConfig } from "../config";
+import SocialLinks from './SocialLinks.astro'
 
 const currentYear = new Date().getFullYear();
 ---
 
-<footer class="py-6 text-center text-gray-600 dark:text-gray-400" style="border-top: solid 0.15vh grey">
-  <p>&copy; {currentYear} {siteConfig.title}. All rights reserved.</p>
+<footer class="flex flex-row justify-between pt-7 pb-4 text-center text-gray-600 dark:text-gray-400 " style="border-top: solid 0.15vh grey">
+  <div class="flex justify-center gap-x-2 ml-2">
+    <p>&copy; {currentYear} {siteConfig.title}. All rights reserved.</p>
+  </div>
+  <SocialLinks/>
 </footer>
